@@ -1,0 +1,610 @@
+
+1 --------
+2 --------
+3 --------
+4 ---OX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 --------
+2 --------
+3 ---X----
+4 ---XX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 --------
+2 --------
+3 --OX----
+4 ---OX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 --------
+2 --------
+3 -XXX----
+4 ---OX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 --------
+2 -O------
+3 -XOX----
+4 ---OX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 -X------
+2 -X------
+3 -XOX----
+4 ---OX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OX------
+2 -O------
+3 -XOX----
+4 ---OX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OX------
+2 -O------
+3 -XOX----
+4 --XXX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOO-----
+2 -O------
+3 -XOX----
+4 --XXX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOO-----
+2 -OX-----
+3 -XXX----
+4 --XXX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOO-----
+2 -OOO----
+3 -XXX----
+4 --XXX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOX----
+2 -OXX----
+3 -XXX----
+4 --XXX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOO---
+2 -OXX----
+3 -XXX----
+4 --XXX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOO---
+2 XXXX----
+3 -XXX----
+4 --XXX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOO---
+2 OOXX----
+3 OXXX----
+4 --XXX---
+5 ---XO---
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOO---
+2 OOXX----
+3 OXXX----
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOO---
+2 OOOXO---
+3 OXXX----
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOX--
+2 OOOXX---
+3 OXXX----
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOO-
+2 OOOXX---
+3 OXXX----
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOO-
+2 OOOOXO--
+3 OXXX----
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOO-
+2 OOOOXXX-
+3 OXXX----
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOO-
+2 OOOOOXXO
+3 OXXX----
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOO-
+2 OOOOOOXO
+3 OOXXO---
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOO-
+2 OOOOOOXO
+3 OOXXXX--
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOO-
+2 OOOOOOOO
+3 OOOXXXO-
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOXO
+3 OOOXXXO-
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOO
+3 OOOXXXOO
+4 --XXX---
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOXXXOO
+4 --XXX--X
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOXOOOO
+4 --XXXO-X
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOXOOOO
+4 --XXXXXX
+5 ---XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 --XXXXXX
+5 -O-XXX--
+6 --------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 --XXXXXX
+5 -X-XXX--
+6 X-------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 --OOXXXX
+5 -XOXXX--
+6 X-------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 -XOXXXXX
+5 -XOXXX--
+6 X-------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOXXXXX
+5 -XOXXX--
+6 X-------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOXXXXX
+5 -XXXXX--
+6 XX------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOXXOOX
+5 -XXXXXO-
+6 XX------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOXXOOX
+5 -XXXXXXX
+6 XX------
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOXOOOX
+5 -OOXXXXX
+6 XXO-----
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOXOOOX
+5 XOXXXXXX
+6 XXO-----
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOX
+5 XOOXOXXX
+6 XXOO----
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOX
+5 XOOXOXXX
+6 XXXOX---
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOX
+5 XOOXOOXX
+6 XXXOOO--
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOX
+5 XOOXOOXX
+6 XXXXOOX-
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 XOOXOOOX
+6 XXXXOOOO
+7 --------
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 XOOXOOOX
+6 XXXXXOXO
+7 -----X--
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOXOOOX
+6 XOXXXOXO
+7 O----X--
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOXOOOX
+6 XOXXXOXX
+7 O----X-X
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOXXXOXX
+7 OO---X-X
+8 --------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOXXXOXX
+7 XX---X-X
+8 X-------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOXOXX
+7 XXO--X-X
+8 X-------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOXOXX
+7 XXXX-X-X
+8 X-------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOXX
+7 XXXXOX-X
+8 X-------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOOX
+7 XXXXOOOX
+8 X-------
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOXX
+7 XXXXOOOX
+8 X---X---
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOXX
+7 XOOXOOOX
+8 XO--X---
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOXX
+7 XXOXOOOX
+8 XXX-X---
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOXX
+7 XXOOOOOX
+8 XXXOX---
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOXX
+7 XXOOOOXX
+8 XXXOXX--
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOOX
+7 XXOOOOXX
+8 XXXOOXO-
+  abcdefgh
+
+1 OOOOOOOX
+2 OOOOOOOX
+3 OOOOOOOO
+4 OOOOOOOO
+5 OOOOOOOX
+6 XOOOOOOX
+7 XXOOOOXX
+8 XXXOOXXX
+  abcdefgh

@@ -1,0 +1,2 @@
+Available move(s): [[d3], [c4], [f5], [e6]]
+Player 'O' move: 

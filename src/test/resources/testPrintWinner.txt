@@ -1,0 +1,2 @@
+No further moves available.
+Player 'X' wins ( 5 vs 4 )
