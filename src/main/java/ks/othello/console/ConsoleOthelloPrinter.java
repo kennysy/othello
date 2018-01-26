@@ -105,7 +105,6 @@ public class ConsoleOthelloPrinter implements OthelloPrinter {
     @Override
     public void warnInvalidInput(Color currentColor, OthelloLocation input) {
         stream.print(INVALID_MOVE);
-        stream.println(input);
         printGrid();
     }
 

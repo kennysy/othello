@@ -1,5 +1,4 @@
 Invalid move. Please try again.
-[??]
 
 1 --------
 2 --------

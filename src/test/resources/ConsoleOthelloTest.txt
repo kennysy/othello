@@ -19,7 +19,6 @@ Player 'X' move:
 8 --------
   abcdefgh
 Player 'O' move: Invalid move. Please try again.
-null
 
 1 --------
 2 --------
