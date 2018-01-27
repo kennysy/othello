@@ -1,14 +1,12 @@
 package ks.othello;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.greaterThan;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class RandomTest extends AbstractOthelloTest{
+class RandomTest extends AbstractOthelloTest {
     private void testRandomGame(OthelloGrid.Color winner, boolean fullFill) {
         othelloController.setRandomBlack(true);
         othelloController.setRandomWhite(true);

@@ -9,8 +9,6 @@ import java.util.Collection;
 
 import static ks.othello.OthelloGrid.Color;
 import static ks.othello.OthelloGrid.getOppositeColor;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.greaterThan;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OthelloControllerTest extends AbstractOthelloTest {
@@ -276,10 +274,10 @@ class OthelloControllerTest extends AbstractOthelloTest {
         assertEquals(null, othelloController.getWinner());
 
         Color currentColor = Color.BLACK;
-        while(othelloController.getWinner() == null){
+        while (othelloController.getWinner() == null) {
             Collection<OthelloLocation> moves = othelloController.getValidMove(currentColor);
-            if(!moves.isEmpty()) {
-                move =  moves.iterator().next();
+            if (!moves.isEmpty()) {
+                move = moves.iterator().next();
                 othelloController.executeMove(move.getKey(), move.getValue(), currentColor);
                 printer.printGrid();
             }
