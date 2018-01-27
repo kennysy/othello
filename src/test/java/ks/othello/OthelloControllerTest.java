@@ -57,7 +57,7 @@ class OthelloControllerTest extends AbstractOthelloTest {
         assertTrue(othelloController.isOppositeColor(1, 1, Color.BLANK));
     }
 
-    void testIsValidDirection(int x, int y, Color color, OthelloGrid.Direction direction, int differentColorCount, boolean valid, Color expectedEndColor) {
+    private void testIsValidDirection(int x, int y, Color color, OthelloGrid.Direction direction, int differentColorCount, boolean valid, Color expectedEndColor) {
         assertEquals(differentColorCount, othelloController.getOppositeCount(x, y, color, direction));
         assertEquals(valid, othelloController.isValidDirection(x, y, color, direction));
         int endX = x + ((differentColorCount + 1) * direction.offsetX);
@@ -148,6 +148,74 @@ class OthelloControllerTest extends AbstractOthelloTest {
         testIsValidDirection(7, 7, Color.BLACK, OthelloGrid.Direction.DOWN_RIGHT, 1, false, null);
         testIsValidDirection(7, 8, Color.BLACK, OthelloGrid.Direction.RIGHT, 1, false, null);
         testIsValidDirection(7, 2, Color.BLACK, OthelloGrid.Direction.UP_RIGHT, 1, false, null);
+    }
+
+    @Test
+    void testIsValidDirectionHitMultipleDifferentColorThenHitBlank() {
+        grid.setPixel(1, 2, Color.WHITE.getColor());
+        testIsValidDirection(1, 1, Color.BLACK, OthelloGrid.Direction.DOWN, 1, false, Color.BLANK);
+
+        grid.setPixel(1, 3, Color.WHITE.getColor());
+        testIsValidDirection(1, 1, Color.BLACK, OthelloGrid.Direction.DOWN, 2, false, Color.BLANK);
+
+        grid.setPixel(1, 4, Color.WHITE.getColor());
+        testIsValidDirection(1, 1, Color.BLACK, OthelloGrid.Direction.DOWN, 3, false, Color.BLANK);
+
+        grid.setPixel(1, 5, Color.WHITE.getColor());
+        testIsValidDirection(1, 1, Color.BLACK, OthelloGrid.Direction.DOWN, 4, false, Color.BLANK);
+
+        grid.setPixel(1, 6, Color.WHITE.getColor());
+        testIsValidDirection(1, 1, Color.BLACK, OthelloGrid.Direction.DOWN, 5, false, Color.BLANK);
+
+        grid.setPixel(1, 7, Color.WHITE.getColor());
+        testIsValidDirection(1, 1, Color.BLACK, OthelloGrid.Direction.DOWN, 6, false, Color.BLANK);
+    }
+
+    @Test
+    void testIsValidDirectionHitMultipleDifferentColorThenHitSameColor() {
+        grid.setPixel(8, 1, Color.BLACK.getColor());
+
+        grid.setPixel(7, 1, Color.WHITE.getColor());
+        testIsValidDirection(6, 1, Color.BLACK, OthelloGrid.Direction.RIGHT, 1, true, Color.BLACK);
+
+        grid.setPixel(6, 1, Color.WHITE.getColor());
+        testIsValidDirection(5, 1, Color.BLACK, OthelloGrid.Direction.RIGHT, 2, true, Color.BLACK);
+
+        grid.setPixel(5, 1, Color.WHITE.getColor());
+        testIsValidDirection(4, 1, Color.BLACK, OthelloGrid.Direction.RIGHT, 3, true, Color.BLACK);
+
+        grid.setPixel(4, 1, Color.WHITE.getColor());
+        testIsValidDirection(3, 1, Color.BLACK, OthelloGrid.Direction.RIGHT, 4, true, Color.BLACK);
+
+        grid.setPixel(3, 1, Color.WHITE.getColor());
+        testIsValidDirection(2, 1, Color.BLACK, OthelloGrid.Direction.RIGHT, 5, true, Color.BLACK);
+
+        grid.setPixel(2, 1, Color.WHITE.getColor());
+        testIsValidDirection(1, 1, Color.BLACK, OthelloGrid.Direction.RIGHT, 6, true, Color.BLACK);
+    }
+
+    @Test
+    void testIsValidDirectionHitMultipleDifferentColorThenHitWall() {
+        grid.setPixel(1, 1, Color.WHITE.getColor());
+        testIsValidDirection(2, 2, Color.BLACK, OthelloGrid.Direction.UP_LEFT, 1, false, null);
+
+        grid.setPixel(2, 2, Color.WHITE.getColor());
+        testIsValidDirection(3, 3, Color.BLACK, OthelloGrid.Direction.UP_LEFT, 2, false, null);
+
+        grid.setPixel(3, 3, Color.WHITE.getColor());
+        testIsValidDirection(4, 4, Color.BLACK, OthelloGrid.Direction.UP_LEFT, 3, false, null);
+
+        grid.setPixel(4, 4, Color.WHITE.getColor());
+        testIsValidDirection(5, 5, Color.BLACK, OthelloGrid.Direction.UP_LEFT, 4, false, null);
+
+        grid.setPixel(5, 5, Color.WHITE.getColor());
+        testIsValidDirection(6, 6, Color.BLACK, OthelloGrid.Direction.UP_LEFT, 5, false, null);
+
+        grid.setPixel(6, 6, Color.WHITE.getColor());
+        testIsValidDirection(7, 7, Color.BLACK, OthelloGrid.Direction.UP_LEFT, 6, false, null);
+
+        grid.setPixel(7, 7, Color.WHITE.getColor());
+        testIsValidDirection(8, 8, Color.BLACK, OthelloGrid.Direction.UP_LEFT, 7, false, null);
     }
 
     @Test
